@@ -3,35 +3,17 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="bg-gray-100 min-h-screen p-6:">
-        <div className="grid gap-6 grid-cols-3">
-          {/* card begin */}
-          <div className=" bg-white p-6 min-h-40 rounded-lg shadow hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card
-          </div>
-          {/* card end */}
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card
-          </div>
-          {/* card end */}
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card
-          </div>
-          {/* card end */}
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card
-          </div>
-          {/* card end */}
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card
-          </div>
-          {/* card end */}
-        </div>
-      </div>
+      <h1 className="text-3xl font-bold bg-primary">Ini font default</h1>
+      <h1 className="text-3xl font-bold font-poppins text-primary">
+        Ini font poppins
+      </h1>
+      <p className="m-4 border border-primary">
+        Ini font default juga. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Illum perferendis dolores provident debitis,
+        necessitatibus ullam, quibusdam dolore cumque velit, molestias
+        recusandae exercitationem pariatur. Quas ullam aliquid ea. Repellat,
+        exercitationem similique!
+      </p>
     </>
   );
 }
